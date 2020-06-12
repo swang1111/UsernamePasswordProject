@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{3913958F-7F19-4635-89B1-D8E2863690A3}|Default">
+  <MonoDevelop.Ide.ItemProperties.UsernamePasswordProject.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UsernamePasswordProject/ShowDataPage.xaml.cs">
+    <Files>
+      <File FileName="UsernamePasswordProject/ShowDataPage.xaml" Line="23" Column="42" />
+      <File FileName="UsernamePasswordProject/ShowDataPage.xaml.cs" Line="10" Column="1" />
+      <File FileName="UsernamePasswordProject/MainPage.xaml" Line="20" Column="23" />
+      <File FileName="UsernamePasswordProject/MainPage.xaml.cs" Line="14" Column="48" />
+      <File FileName="UsernamePasswordProject/User.cs" Line="12" Column="2" />
+      <File FileName="UsernamePasswordProject/Database.cs" Line="8" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UsernamePasswordProject" expanded="True">
+            <Node name="UsernamePasswordProject" expanded="True">
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="ShowDataPage.xaml" expanded="True">
+                <Node name="ShowDataPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.UsernamePasswordProject FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.UsernamePasswordProject.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" FirstBuild="True" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

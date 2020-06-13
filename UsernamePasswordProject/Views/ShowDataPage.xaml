@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:local="clr-namespace:UsernamePasswordProject;assembly=UsernamePasswordProject"
              mc:Ignorable="d"
-             x:Class="UsernamePasswordProject.ShowDataPage"
+             x:Class="UsernamePasswordProject.Views.ShowDataPage"
              >
     <!--
     <ContentPage.BindingContext>

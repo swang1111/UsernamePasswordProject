@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("UsernamePasswordProject.Views.ShowDataPage.xaml", "Views/ShowDataPage.xaml", typeof(global::UsernamePasswordProject.ShowDataPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("UsernamePasswordProject.Views.ShowDataPage.xaml", "Views/ShowDataPage.xaml", typeof(global::UsernamePasswordProject.Views.ShowDataPage))]
 
-namespace UsernamePasswordProject {
+namespace UsernamePasswordProject.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/ShowDataPage.xaml")]

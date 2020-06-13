@@ -2,9 +2,9 @@
 using System.Threading.Tasks;
 using SQLite;
 
-namespace LocalDatabaseTutorial
+namespace LocalDatabaseTutorial.Models
 {
-    public class Database
+    public class Database : IDatabase
     {
         readonly SQLiteAsyncConnection _database;
 

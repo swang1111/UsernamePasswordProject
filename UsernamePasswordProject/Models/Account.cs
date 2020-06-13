@@ -1,6 +1,6 @@
 ﻿using SQLite;
 
-namespace LocalDatabaseTutorial
+namespace LocalDatabaseTutorial.Models
 {
     public class Account
     {

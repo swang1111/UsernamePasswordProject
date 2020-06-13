@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("UsernamePasswordProject.ShowDataPage.xaml", "ShowDataPage.xaml", typeof(global::UsernamePasswordProject.Views.ShowDataPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("UsernamePasswordProject.Views.ShowDataPage.xaml", "Views/ShowDataPage.xaml", typeof(global::UsernamePasswordProject.ShowDataPage))]
 
-namespace UsernamePasswordProject.Views {
+namespace UsernamePasswordProject {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("ShowDataPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/ShowDataPage.xaml")]
     public partial class ShowDataPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

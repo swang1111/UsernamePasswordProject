@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("UsernamePasswordProject.ShowDataPage.xaml", "ShowDataPage.xaml", typeof(global::UsernamePasswordProject.Views.ShowDataPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("UsernamePasswordProject.Views.MainPage.xaml", "Views/MainPage.xaml", typeof(global::UsernamePasswordProject.Views.MainPage))]
 
 namespace UsernamePasswordProject.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("ShowDataPage.xaml")]
-    public partial class ShowDataPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/MainPage.xaml")]
+    public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ShowDataPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
         }
     }
 }

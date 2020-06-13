@@ -25,22 +25,19 @@
         </Grid.ColumnDefinitions>
         
         <ListView Grid.Column="0"
-             ItemsSource="{Binding usernameListView}">
+             ItemsSource="{Binding userListView}">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Username}"/>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Username}" Font="15,Bold" />
+                            <Label Text="{Binding Password}"/>
+                        </StackLayout>
+                    </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
 
-        <ListView Grid.Column="1"
-              ItemsSource="{Binding passwordListView}">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <TextCell Text="{Binding Password} "/>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
     </Grid>
     
 

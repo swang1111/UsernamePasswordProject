@@ -14,14 +14,11 @@ namespace UsernamePasswordProject
     public partial class ShowDataPage : ContentPage
     {
         /*
-        public ObservableCollection<User> usernameListView { get; set; }
-        public ObservableCollection<Pass> passwordListView { get; set; }
+        public ObservableCollection<User> userListView { get; set; }
+        
         public class User
         {
             public string Username { get; set; }
-        }
-        public class Pass
-        {
             public string Password { get; set; }
         }
         */
@@ -31,14 +28,27 @@ namespace UsernamePasswordProject
             InitializeComponent();
 
             /*
-            usernameListView = new ObservableCollection<User>();
-            passwordListView = new ObservableCollection<Pass>();
-            usernameListView.Add(new User() { Username = "Alyssa" });
-            usernameListView.Add(new User() { Username = "Brennan" });
-            passwordListView.Add(new Pass() { Password = "abc" });
-            passwordListView.Add(new Pass() { Password = "123" });
-           
+            userListView = new ObservableCollection<User>();
+            
+            userListView.Add(new User() { Username = "Alyssa", Password="abc" });
+            userListView.Add(new User() { Username = "Brennan", Password="123" });
             BindingContext = this;
+            */
+
+
+
+            /*
+            if (!string.IsNullOrWhiteSpace(nameEntry.Text) && !string.IsNullOrWhiteSpace(ageEntry.Text))
+            {
+                await App.Database.SavePersonAsync(new Person
+                {
+                    Name = nameEntry.Text,
+                    Age = int.Parse(ageEntry.Text)
+                });
+
+                nameEntry.Text = ageEntry.Text = string.Empty;
+                listView.ItemsSource = await App.Database.GetPeopleAsync();
+            }
             */
         }
 

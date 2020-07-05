@@ -1,29 +1,36 @@
 ﻿<Properties StartupConfiguration="{3913958F-7F19-4635-89B1-D8E2863690A3}|Default">
-  <MonoDevelop.Ide.ItemProperties.UsernamePasswordProject.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="UsernamePasswordProject/Views/ShowDataPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UsernamePasswordProject/Models/Database.cs">
     <Files>
-      <File FileName="UsernamePasswordProject/Views/ShowDataPage.xaml" Line="14" Column="8" />
-      <File FileName="UsernamePasswordProject/Views/ShowDataPage.xaml.cs" Line="28" Column="32" />
+      <File FileName="UsernamePasswordProject/Models/IDatabase.cs" Line="9" Column="28" />
+      <File FileName="UsernamePasswordProject/Models/Database.cs" Line="35" Column="10" />
+      <File FileName="UsernamePasswordProject/Models/Account.cs" Line="11" Column="2" />
+      <File FileName="UsernamePasswordProject/Views/MainPage.xaml" Line="27" Column="15" />
+      <File FileName="UsernamePasswordProject/Views/MainPage.xaml.cs" Line="28" Column="1" />
+      <File FileName="UsernamePasswordProject/ViewModels/MainPageViewModel.cs" Line="16" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="UsernamePasswordProject" expanded="True">
             <Node name="UsernamePasswordProject" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="ShowDataPage.xaml" selected="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Database.cs" selected="True" />
               </Node>
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="MainPage.xaml" expanded="True" />
+                <Node name="ShowDataPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.UsernamePasswordProject FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.UsernamePasswordProject.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" FirstBuild="True" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.UsernamePasswordProject.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

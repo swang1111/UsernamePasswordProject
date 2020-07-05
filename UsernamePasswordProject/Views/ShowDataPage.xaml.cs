@@ -4,7 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using UsernamePasswordProject.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -23,9 +23,14 @@ namespace UsernamePasswordProject.Views
         }
         */
 
-        public ShowDataPage()
+        public MainPageViewModel _mainPageViewModel { get; set; }
+
+        public ShowDataPage(MainPageViewModel mainPageViewModel)
         {
             InitializeComponent();
+            _mainPageViewModel = mainPageViewModel;
+
+            this.BindingContext = _mainPageViewModel;
 
             /*
             userListView = new ObservableCollection<User>();
@@ -45,7 +50,6 @@ namespace UsernamePasswordProject.Views
                     Name = nameEntry.Text,
                     Age = int.Parse(ageEntry.Text)
                 });
-
                 nameEntry.Text = ageEntry.Text = string.Empty;
                 listView.ItemsSource = await App.Database.GetPeopleAsync();
             }

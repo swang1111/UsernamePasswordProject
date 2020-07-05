@@ -4,15 +4,11 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:local="clr-namespace:UsernamePasswordProject;assembly=UsernamePasswordProject"
+             xmlns:a="clr-namespace:UsernamePasswordProject.ViewModels"
              mc:Ignorable="d"
              x:Class="UsernamePasswordProject.Views.ShowDataPage"
              >
-    <!--
-    <ContentPage.BindingContext>
-        <local:ViewModel/>
-    </ContentPage.BindingContext>
-    -->
-
+    
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+"
                      Clicked="OnItemClicked"/>
